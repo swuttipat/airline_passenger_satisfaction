@@ -1,10 +1,10 @@
 # Airline passenger satisfaction
-## Purpose
-This dataset contains an airline passenger satisfaction survey. <br>
-What factors are highly correlated to a satisfied (or dissatisfied) passenger? <br>
-Can you predict passenger satisfaction?
+<a id='about_dataset'></a> 
+## About Dataset
+### Context
+This dataset contains an airline passenger satisfaction survey. What factors are highly correlated to a satisfied (or dissatisfied) passenger? Can you predict passenger satisfaction?
 
-## Content
+### Content
 Features        | Description
 ----------------|----------------------------------------------------------------------------
 Gender          | Gender of the passengers (Female, Male)
@@ -33,4 +33,11 @@ Satisfaction  | Airline satisfaction level(Satisfaction, neutral or dissatisfact
 
 Note that this data set was modified from this dataset by John D here. It has been cleaned up for the purposes of classification.
 
+---
+<a id='goal'></a>
+## Goal
+#### This jupyter notebook aiming for 3 major parts.
+1. Data visualization
+2. Machine learning
+3. Deep learning Tensorfow
 ---
