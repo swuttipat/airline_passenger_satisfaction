@@ -66,10 +66,9 @@ Note that this data set was modified from this dataset by John D here. It has be
         - [Stochastic Gradient Desent](#SGD)
         - [Support Vector Machine](#support_vector_machine)
     - [Analyst models performance](#analyst_models_performance)
-- #### [Tensorflow](#tensorflow)
+- #### [Tensorflow](#tensor_flow)
     - [Data preprocessing](#data_preprocessing_tf)
     - [Loading Data](#loading_data)
-    - [Data](#data)
     - [Model](#model)
     - [Test Model](#test_model)
 ---
@@ -1647,7 +1646,7 @@ ax2.tick_params(axis='y', color=color)
 
 ---
 
-<a id='tensorflow'></a>
+<a id='tensor_flow'></a>
 # Tensorflow
 
 
