@@ -1,4 +1,4 @@
- # Airline passenger satisfacion 
+ # Airline passenger satisfaction 
 ---
 
 <a id='about_dataset'></a> 
@@ -73,7 +73,7 @@ Note that this data set was modified from this dataset by John D here. It has be
 - [Import relative libraries](#import_relative_libraries)
 - [Importing data](#importing_data)
 - [Cleaning data and data imputing](#cleaning_data_and_data_imputing)
-- #### [Data visualization](#data_visualization)
+- [Data visualization](#data_visualization)
 - [Data preprocessing](#data_preprocessing)
 - #### [Machine learing](#machine-learning)
     - [Model compile function](#model_compile_function)
@@ -373,10 +373,10 @@ train.head()
 
 
 #### Let's looking into the data here what we noticed: 
-- Our *targat* is *'satisfaction'*
+- Our *target* is *'satisfaction'*
 - Columns *'Unamed', 'id'* are neglectable since it on effect the *'satisfaction'*
-- The data are not sort by any value, so no nedd to shuffle
-- There are a lot of columns data type is *category*, encoding are require.
+- The data are not sort by any value, so no need to shuffle
+- There are a lot of columns data type is *category* which require encoding method.
 
 ---
 
@@ -482,7 +482,7 @@ test_cleaned = clean_data(test)
 ```
 
 <a id='data_visualization'></a>
-## Data visualization
+# Data visualization
 
 Separate *features* columns and *target* columns
 
@@ -498,7 +498,7 @@ features = ['gender', 'customer_type', 'age', 'type_of_travel', 'class',
 target = ['satisfaction']
 ```
 
-### Ratio of categorical features
+### Distribution of categorical features
 Let's see how balance of dataset we have.
 
 
@@ -536,11 +536,11 @@ plt.subplots_adjust(left=0.125,
 
 
 #### The pie charts above telling us.
-- The majority of customer are likely to neutral or dissatisfied
+- The majority of customer are likely to **neutral or dissatisfied**
 - Number of male and female sample are nearly same.
 - Most of customer are regular customer
 - Nearly half of customer chose business class.
-- More than flight taken are for business purpose.
+- More than a half of flights taken are for business purpose.
 
 ---
 
@@ -624,11 +624,9 @@ plt.subplots_adjust(left=0.125,
 
 
 #### Some conclude about these plots reveal:
-- The masses of *personal travel* customer receive bad experience.
-- Majority of *eco* class feel dissatisfied.
-- Mostly the survey show, if customer give 5 rating are likely to satisfied except *departure/arrival time convinent.*
-
----
+- The massives of **personal travel** customer receive bad experience.
+- Majority of **eco** class feel dissatisfied.
+- Mostly the survey show, **if customer give 5 rating are likely to satisfied except  <span style="color:red">departure/arrival time convinent</span>.**
 
 #### Quantitative features
 
