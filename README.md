@@ -1,4 +1,4 @@
- # Airline passenger satisfacion 
+ # Airline passenger satisfaction 
 ---
 
 <a id='about_dataset'></a> 
